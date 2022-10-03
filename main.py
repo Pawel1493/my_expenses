@@ -54,7 +54,7 @@ def categories():
         except ValueError:
             print("Prawdopodobnie wprowadziłeś złe dane. Spróbuj jeszcze raz.")
             continue
-        if month < 0 or month > 3:
+        if choice < 0 or choice > 3:
             print("Podaj liczbę z przedziału [0-3] odpowiadającą odpowiedniemu miesiącu.")
 
         if choice == 0:
